@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        body:before{
+            content: "";
+            position: absolute;
+            inset: 40%-60% 0 -60%;
+            opacity: 0.3;
+            pointer-events: none;
+        }
+        nav{
+            position: relative;
+            z-index: 1;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+        nav.before .active-element{
+            transform: rotateY(180deg);
+        }
+        button{
+            color: rgb(228, 212, 212);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome</h1>
+    <div>
+        <nav>
+            <ul>
+                <li class="active">
+                    <button>Home</button>
+                </li>
+                <li>
+                    <button>Blogs</button>
+                </li>
+                <li>
+                    <button>Serivces</button>
+                </li>
+                <li>
+                    <button>Contact</button>
+                </li>
+                <li>
+                    <button>About</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
