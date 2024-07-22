@@ -1,0 +1,22 @@
+body{
+    background-color: hsl(0, 0%, 80%);
+}
+div{
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid aqua;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    margin: auto;
+    margin-top: 200px;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color: blue;
+}
