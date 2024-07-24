@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 80%);
+    background: url(/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+form{
+   font-weight: bold;
+   border: 2px solid  hsl(0, 0%, 100%);
+   border-radius: 10px;
+   backdrop-filter: blur(5px);
+   box-shadow:  black;
+   width: 50vh;
+   height: 50vh;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   margin-top: 100px;
+}
+h2{
+    font-weight: bold;
+    margin: 15px;
+    color: rgba(255, 234, 0, 0.976);
+    padding: 10px;
+
+}
+.contatiner{
+    color: white;
+    
+    
+}
+.contatiner input {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    margin-top: 10px;
+    background: transparent;
+   
+}
+
+.contatiner  ::placeholder{
+    color: white;
+}
+#Login{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: hsl(36, 88%, 47%);
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#Login:hover{
+    
+    font-size: 25px;
+    background-color: hsl(36, 88%, 60%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#Alogin{
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#Alogin:hover{
+    font-size: 22px;
+    
+}
+#but{
+    color: rgb(213, 213, 211);
+    font-size: 25px;
+    background-color: hsl(204, 74%, 49%);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+#but:hover{
+    background-color: hsl(204, 74%, 60%);
+}
